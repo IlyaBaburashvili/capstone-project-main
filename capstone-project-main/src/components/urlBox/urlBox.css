@@ -1,0 +1,62 @@
+.urlBox {
+    background: #9193DE;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* gap: 22px; */
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 14px 16px;
+    /* border: 2px solid #fff; */
+    width: 1200px;
+}
+
+.sentiment-form {
+    display: flex;
+    width: 100%;
+}
+
+.input-analytics-input {
+    border-width: 0 !important;
+    /* width: 57%; */
+    height: 40px !important;
+    flex: 1;
+    background-color: transparent;
+    font-size: 18px;
+     outline: none;
+    margin-right: 24px;
+    border-radius: 5px;
+    padding: 2px 8px;
+    color: white !important;
+}
+
+.fetch-analytics-button {
+    font-size: 18px;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: #4e509b;
+    padding: 8px 24px;
+    color: white;
+}
+
+.select-padding {
+    padding: 10px 20px;
+    margin: 5px 10px;
+}
+
+.sentiment-results {
+    text-align: center;
+    width: 68%;
+    margin: 26px auto 0;
+    font-family: roboto, sans-serif;
+    padding-bottom: 80px;
+    color: #bccaff;
+}
+
+.loading-spinner {
+    width: 100%;
+    height: 240px;
+    background: url(../../assets/spinning-gear.gif)
+      center center no-repeat;
+    background-size: 240px;
+  }

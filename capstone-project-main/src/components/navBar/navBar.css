@@ -1,0 +1,52 @@
+.moodninja__navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 20rem;
+  color: #fff;
+  font-family: 'outfit', sans-serif;
+  font-size: 23px;
+  font-weight: bolder;
+
+  margin: auto;
+  max-width: 1700px;
+}
+
+.moodninja__navBar-name {
+  --gradient-text: var(--gradient-text);
+}
+.moodninja__navBar-links {
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.moodninja__navBar-link-items {
+  padding: 0 8px;
+}
+
+.moodninja__navBar-links_logo {
+  margin-right: 2rem;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+}
+
+.moodninja__navBar-links_logo {
+  width: 251px;
+  height: 28px;
+}
+
+.moodninja__navBar-links_container {
+  margin: 10px;
+  padding: 20px;
+}
+
+.mdi {
+  margin: 10px;
+  padding: 20px;
+}

@@ -1,0 +1,70 @@
+.moodninja__header {
+    display: flex;
+  }
+  
+  .moodninja__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+  }
+  
+  .moodninja__header-content h1 {
+    width: 525px;
+    height: 262px;
+    left: auto;
+    top: 250px;
+    font-family: var(--font-family);
+    font-weight: 800;
+  
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Outfit";
+    font-style: normal;
+    font-size: 62px;
+    line-height: 75px;
+    text-transform: capitalize;
+  }
+  
+  .moodninja__header-content p {
+  
+    width: 435px;
+    height: 138px;
+    left: auto;
+    top: 417px;
+  
+    /* body text */
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+  
+    margin-top: 1.5rem;
+  }
+  
+  .moodninja__header-image {
+
+  
+  
+    width: 522px;
+    height: 395px;
+    left: auto;
+   
+    right: 14rem;
+   
+  
+    /* background: url(Illustration 1.png); */
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+  }
+  
